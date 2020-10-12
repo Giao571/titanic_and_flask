@@ -17,3 +17,8 @@ restore_bundle_cache: &restore_bundle_cache
 
 jobs:
   build:
+    docker:
+      - image: circleci/ruby:2.7.2
+    steps:
+      - checkout
+      - *restore_bundle_cache
