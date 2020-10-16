@@ -22,3 +22,9 @@ jobs:
     steps:
       - checkout
       - *restore_bundle_cache
+      - *update_bundler
+      - *bundle_install
+      - save_cache:
+          key: cache-bundler-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
