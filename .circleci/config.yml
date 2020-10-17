@@ -43,3 +43,9 @@ jobs:
     steps:
       - checkout
       - *restore_bundle_cache
+      - *update_bundler
+      - *bundle_install
+      - run: bundle exec rspec
+workflows:
+  version: 2.1
+  rspec:
