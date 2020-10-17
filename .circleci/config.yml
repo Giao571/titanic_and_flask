@@ -28,3 +28,8 @@ jobs:
           key: cache-bundler-{{ checksum "Gemfile.lock" }}
           paths:
             - vendor/bundle
+  rubocop:
+    docker:
+      - image: circleci/ruby:2.7.2
+    steps:
+      - checkout
