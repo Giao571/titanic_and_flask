@@ -49,3 +49,7 @@ jobs:
 workflows:
   version: 2.1
   rspec:
+    jobs:
+      - build
+      - rubocop
+      - rspec
