@@ -3,4 +3,5 @@ updates:
 - package-ecosystem: bundler
   directory: "/"
   schedule:
-    interval: dail
+    interval: daily
+    
