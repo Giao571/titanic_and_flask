@@ -5,4 +5,5 @@ updates:
   schedule:
     interval: daily
     time: "12:00"
-    timezone: Asia/
+    timezone: Asia/Tokyo
+  open-p
