@@ -10,4 +10,4 @@ updates:
   reviewers:
   - unhappychoice
   allow:
-  - dependency-type
+  - dependency-type: dir
