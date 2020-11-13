@@ -10,4 +10,5 @@ updates:
   reviewers:
   - unhappychoice
   allow:
-  - dependency-type: dir
+  - dependency-type: direct
+  -
