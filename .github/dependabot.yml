@@ -13,3 +13,4 @@ updates:
   - dependency-type: direct
   - dependency-type: indirect
   ignore:
+  - dep
