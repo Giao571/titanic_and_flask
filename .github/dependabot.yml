@@ -13,4 +13,4 @@ updates:
   - dependency-type: direct
   - dependency-type: indirect
   ignore:
-  - dependency-n
+  - dependency-name: rubo
