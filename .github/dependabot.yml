@@ -13,4 +13,5 @@ updates:
   - dependency-type: direct
   - dependency-type: indirect
   ignore:
-  - dependency-name: rubo
+  - dependency-name: rubocop
+  
