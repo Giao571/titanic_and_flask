@@ -14,4 +14,4 @@ updates:
   - dependency-type: indirect
   ignore:
   - dependency-name: rubocop
-    ver
+    version
