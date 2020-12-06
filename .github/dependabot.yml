@@ -15,4 +15,4 @@ updates:
   ignore:
   - dependency-name: rubocop
     versions:
-    - 1.
+    - 1.1
