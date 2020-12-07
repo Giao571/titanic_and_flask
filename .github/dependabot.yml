@@ -16,4 +16,5 @@ updates:
   - dependency-name: rubocop
     versions:
     - 1.12.0
-    - 1.12
+    - 1.12.1
+ 
