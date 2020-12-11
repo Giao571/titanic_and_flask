@@ -17,4 +17,4 @@ updates:
     versions:
     - 1.12.0
     - 1.12.1
-  - dependency-nam
+  - dependency-name: re
