@@ -18,4 +18,4 @@ updates:
     - 1.12.0
     - 1.12.1
   - dependency-name: regexp_parser
-    ver
+    versions
