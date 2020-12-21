@@ -28,3 +28,8 @@ permanently any contributor for other behaviors that they deem inappropriate,
 threatening, offensive, or harmful.
 
 By adopting this Code of Conduct, project maintainers commit themselves to
+fairly and consistently applying these principles to every aspect of managing
+this project. Project maintainers who do not follow or enforce the Code of
+Conduct may be permanently removed from the project team.
+
+This code of conduct applies both within project spaces and in public spaces
