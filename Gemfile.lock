@@ -54,3 +54,5 @@ GEM
     rexml (3.2.5)
     rspec (3.12.0)
       rspec-core (~> 3.12.0)
+      rspec-expectations (~> 3.12.0)
+      rspec-mocks (~> 3.12.0)
