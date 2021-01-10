@@ -84,3 +84,11 @@ GEM
     websocket-client-simple (0.6.0)
       event_emitter
       websocket
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bitflyer!
+  bundler (~> 2.0)
+  pry
