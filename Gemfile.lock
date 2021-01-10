@@ -92,3 +92,9 @@ DEPENDENCIES
   bitflyer!
   bundler (~> 2.0)
   pry
+  rake
+  rspec
+  rubocop
+
+BUNDLED WITH
+   2.2.4
