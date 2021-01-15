@@ -13,3 +13,9 @@
 bitflyer is a wrapper interface of [Bitflyer lightning API](https://lightning.bitflyer.jp/docs)  
 
 ## Installation
+
+```sh
+gem install bitflyer
+```
+
+## Usage
