@@ -19,3 +19,11 @@ gem install bitflyer
 ```
 
 ## Usage
+
+See https://lightning.bitflyer.jp/docs for details.
+
+### HTTP API
+
+See [public.rb](./lib/bitflyer/http/public.rb) / [private.rb](./lib/bitflyer/http/private.rb) for method definition.
+
+#### Example
