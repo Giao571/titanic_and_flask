@@ -27,3 +27,8 @@ See https://lightning.bitflyer.jp/docs for details.
 See [public.rb](./lib/bitflyer/http/public.rb) / [private.rb](./lib/bitflyer/http/private.rb) for method definition.
 
 #### Example
+
+```ruby 
+public_client = Bitflyer.http_public_client
+p public_client.board # will print board snapshot
+ 
