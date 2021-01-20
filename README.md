@@ -37,3 +37,8 @@ p private_client.positions # will print your positions
 ```
 
 ### Realtime API
+
+#### Public events
+
+Accessor format is like `{event_name}_{product_code}`.
+You can set lambda to get realtime events.
