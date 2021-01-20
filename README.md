@@ -50,3 +50,7 @@ You can set lambda to get realtime events.
 To subscribe to the private `child_order_events` and `parent_order_events`, pass your API key and secret when creating the `realtime_client`.
 
 #### Connection status monitoring
+
+The `ready` callback is called when the `realtime_client` is ready to receive events (after the socket connection is established, the optional authentication has succeeded, and the channels have been subscribed). If connection is lost, the `disconnected` callback is called, and reconnection is attempted automatically. When connection is restored, `ready` is called again.
+
+#### Examples
