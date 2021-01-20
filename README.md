@@ -42,3 +42,7 @@ p private_client.positions # will print your positions
 
 Accessor format is like `{event_name}_{product_code}`.
 You can set lambda to get realtime events.
+
+`{event_name}` and `{product_code}` is defined at [client.rb](./lib/bitflyer/realtime/client.rb).
+
+#### Private events
