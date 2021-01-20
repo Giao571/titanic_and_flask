@@ -64,3 +64,9 @@ client.executions_btc_jpy = ->(json){ p json }
 ```
 
 For both public and private events:
+```ruby
+client = Bitflyer.realtime_client('YOUR_API_KEY', 'YOUR_API_SECRET')
+# Private events:
+client.child_order_events = ->(json){ p json }
+client.parent_order_events = ->(json){ p json }
+# Public events:
