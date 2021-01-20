@@ -46,3 +46,7 @@ You can set lambda to get realtime events.
 `{event_name}` and `{product_code}` is defined at [client.rb](./lib/bitflyer/realtime/client.rb).
 
 #### Private events
+
+To subscribe to the private `child_order_events` and `parent_order_events`, pass your API key and secret when creating the `realtime_client`.
+
+#### Connection status monitoring
