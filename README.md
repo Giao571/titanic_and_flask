@@ -32,3 +32,8 @@ See [public.rb](./lib/bitflyer/http/public.rb) / [private.rb](./lib/bitflyer/htt
 public_client = Bitflyer.http_public_client
 p public_client.board # will print board snapshot
  
+private_client = Bitflyer.http_private_client('YOUR_API_KEY', 'YOUR_API_SECRET')
+p private_client.positions # will print your positions
+```
+
+### Realtime API
