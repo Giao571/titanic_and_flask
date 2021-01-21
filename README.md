@@ -70,3 +70,11 @@ client = Bitflyer.realtime_client('YOUR_API_KEY', 'YOUR_API_SECRET')
 client.child_order_events = ->(json){ p json }
 client.parent_order_events = ->(json){ p json }
 # Public events:
+client.ticker_btc_jpy = ->(json){ p json }
+client.executions_btc_jpy = ->(json){ p json }
+# ...
+```
+
+Connection monitoring:
+```ruby
+client = Bitflyer.realtime_client
