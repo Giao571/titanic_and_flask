@@ -78,3 +78,6 @@ client.executions_btc_jpy = ->(json){ p json }
 Connection monitoring:
 ```ruby
 client = Bitflyer.realtime_client
+client.ready = -> { p "Client is ready to receive events" }
+client.disconnected = ->(error) { p "Client got disconnected" }
+```
