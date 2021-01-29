@@ -81,3 +81,10 @@ client = Bitflyer.realtime_client
 client.ready = -> { p "Client is ready to receive events" }
 client.disconnected = ->(error) { p "Client got disconnected" }
 ```
+
+
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/unhappychoice/bitflyer. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
