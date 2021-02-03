@@ -108,3 +108,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/fkshom"><img src="https://avatars.githubusercontent.com/u/1889118?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shoma FUKUDA</b></sub></a><br /><a href="https://github.com/unhappychoice/bitflyer/commits?author=fkshom" title="Code">💻</a></td>
     <td align="center"><a href="http://shidetake.com"><img src="https://avatars.githubusercontent.com/u/1559558?v=4?s=100" width="100px;" alt=""/><br /><sub><b>shidetake</b></sub></a><br /><a href="https://github.com/unhappychoice/bitflyer/commits?author=shidetake" title="Code">💻</a></td>
   </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
