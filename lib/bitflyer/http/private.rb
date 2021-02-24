@@ -1,1 +1,1 @@
-# frozen_
+# frozen_string
