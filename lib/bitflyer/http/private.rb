@@ -2,4 +2,4 @@
 
 module Bitflyer
   module HTTP
-   
+    
