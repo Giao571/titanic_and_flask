@@ -3,4 +3,4 @@
 module Bitflyer
   module HTTP
     module Private
-      class Client
+      class Client # r
