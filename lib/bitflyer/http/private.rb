@@ -3,4 +3,4 @@
 module Bitflyer
   module HTTP
     module Private
-      class Client # rubocop:disab
+      class Client # rubocop:disable M
