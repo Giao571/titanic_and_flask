@@ -3,4 +3,4 @@
 module Bitflyer
   module HTTP
     module Private
-      class Client # rubocop:disable Metrics/Cl
+      class Client # rubocop:disable Metrics/ClassLe
