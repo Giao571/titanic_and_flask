@@ -4,4 +4,5 @@ module Bitflyer
   module HTTP
     module Private
       class Client # rubocop:disable Metrics/ClassLength
-        def initialize(key, secre
+        def initialize(key, secret)
+   
