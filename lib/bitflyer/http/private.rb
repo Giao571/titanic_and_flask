@@ -6,3 +6,4 @@ module Bitflyer
       class Client # rubocop:disable Metrics/ClassLength
         def initialize(key, secret)
           @connection = Connection.new(key, secret)
+       
