@@ -8,4 +8,5 @@ module Bitflyer
           @connection = Connection.new(key, secret)
         end
 
-        def permission
+        def permissions
+       
