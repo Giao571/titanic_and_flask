@@ -9,4 +9,4 @@ module Bitflyer
         end
 
         def permissions
-       
+          @co
