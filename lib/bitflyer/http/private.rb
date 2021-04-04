@@ -9,4 +9,4 @@ module Bitflyer
         end
 
         def permissions
-          @connection.g
+          @connection.get('/v1/
