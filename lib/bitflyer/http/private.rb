@@ -13,3 +13,4 @@ module Bitflyer
         end
 
         def balance
+          
