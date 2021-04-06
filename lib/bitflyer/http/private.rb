@@ -12,4 +12,4 @@ module Bitflyer
           @connection.get('/v1/me/getpermissions').body
         end
 
-   
+        def b
