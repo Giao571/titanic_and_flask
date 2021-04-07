@@ -13,4 +13,4 @@ module Bitflyer
         end
 
         def balance
-          @connection.get('/v1
+          @connection.get('/v1/me/ge
