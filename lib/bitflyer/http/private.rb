@@ -16,4 +16,4 @@ module Bitflyer
           @connection.get('/v1/me/getbalance').body
         end
 
-      
+        def col
