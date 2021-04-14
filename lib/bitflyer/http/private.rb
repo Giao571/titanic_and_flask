@@ -17,3 +17,4 @@ module Bitflyer
         end
 
         def collateral
+    
