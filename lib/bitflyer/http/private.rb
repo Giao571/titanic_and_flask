@@ -17,4 +17,4 @@ module Bitflyer
         end
 
         def collateral
-          @connection.get('
+          @connection.get('/v1/m
