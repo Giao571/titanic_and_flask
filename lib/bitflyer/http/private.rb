@@ -18,3 +18,4 @@ module Bitflyer
 
         def collateral
           @connection.get('/v1/me/getcollateral').body
+      
