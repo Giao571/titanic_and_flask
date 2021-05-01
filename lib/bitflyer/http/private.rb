@@ -20,4 +20,4 @@ module Bitflyer
           @connection.get('/v1/me/getcollateral').body
         end
 
-        
+        def ad
