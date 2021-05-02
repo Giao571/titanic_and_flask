@@ -21,4 +21,4 @@ module Bitflyer
         end
 
         def addresses
-          @connec
+          @connection.get('
