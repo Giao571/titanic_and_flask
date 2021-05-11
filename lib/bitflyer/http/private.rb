@@ -21,4 +21,5 @@ module Bitflyer
         end
 
         def addresses
-          @connection.get('/v1/me/getaddresses').bod
+          @connection.get('/v1/me/getaddresses').body
+   
