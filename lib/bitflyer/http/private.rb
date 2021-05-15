@@ -25,3 +25,4 @@ module Bitflyer
         end
 
         def coin_ins
+      
