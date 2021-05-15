@@ -24,4 +24,4 @@ module Bitflyer
           @connection.get('/v1/me/getaddresses').body
         end
 
-        d
+        def coin_ins
