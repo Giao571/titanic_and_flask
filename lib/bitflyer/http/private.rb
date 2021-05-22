@@ -25,4 +25,4 @@ module Bitflyer
         end
 
         def coin_ins
-          @connection.get('/v1/me/get
+          @connection.get('/v1/me/getcoinins
