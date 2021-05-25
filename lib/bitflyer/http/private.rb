@@ -26,4 +26,4 @@ module Bitflyer
 
         def coin_ins
           @connection.get('/v1/me/getcoinins').body
-    
+        en
