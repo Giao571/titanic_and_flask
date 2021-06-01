@@ -28,4 +28,4 @@ module Bitflyer
           @connection.get('/v1/me/getcoinins').body
         end
 
-        de
+        def 
