@@ -29,4 +29,4 @@ module Bitflyer
         end
 
         def coin_outs
-       
+          @con
