@@ -28,4 +28,5 @@ module Bitflyer
           @connection.get('/v1/me/getcoinins').body
         end
 
-        def coin_o
+        def coin_outs
+       
