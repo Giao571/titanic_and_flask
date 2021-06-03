@@ -32,4 +32,4 @@ module Bitflyer
           @connection.get('/v1/me/getcoinouts').body
         end
 
- 
+    
