@@ -32,4 +32,5 @@ module Bitflyer
           @connection.get('/v1/me/getcoinouts').body
         end
 
-        def bank_
+        def bank_accounts
+  
