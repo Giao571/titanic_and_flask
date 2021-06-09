@@ -33,4 +33,4 @@ module Bitflyer
         end
 
         def bank_accounts
-          @conne
+          @connectio
