@@ -33,4 +33,4 @@ module Bitflyer
         end
 
         def bank_accounts
-          @connection.get('/v1/me
+          @connection.get('/v1/me/getba
