@@ -37,4 +37,4 @@ module Bitflyer
         end
 
         def deposits
-          @connection.get('/v1/me/getdeposi
+          @connection.get('/v1/me/getdeposits').
