@@ -37,4 +37,4 @@ module Bitflyer
         end
 
         def deposits
-          @conn
+          @connection
