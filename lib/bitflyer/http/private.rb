@@ -38,4 +38,4 @@ module Bitflyer
 
         def deposits
           @connection.get('/v1/me/getdeposits').body
-    
+      
