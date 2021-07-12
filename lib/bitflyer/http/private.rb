@@ -40,4 +40,4 @@ module Bitflyer
           @connection.get('/v1/me/getdeposits').body
         end
 
-        def withdraw(curr
+        def withdraw(currency_
