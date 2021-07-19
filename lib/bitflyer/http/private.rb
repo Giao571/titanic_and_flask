@@ -40,4 +40,4 @@ module Bitflyer
           @connection.get('/v1/me/getdeposits').body
         end
 
-        def withdraw(currency_code: 'JPY', bank_accou
+        def withdraw(currency_code: 'JPY', bank_account_id: 
