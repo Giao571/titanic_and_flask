@@ -42,4 +42,5 @@ module Bitflyer
 
         def withdraw(currency_code: 'JPY', bank_account_id: nil, amount: nil, code: nil)
           body = {
-            currency_code: curren
+            currency_code: currency_code,
+   
