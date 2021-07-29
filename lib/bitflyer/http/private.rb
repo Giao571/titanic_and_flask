@@ -44,4 +44,4 @@ module Bitflyer
           body = {
             currency_code: currency_code,
             bank_account_id: bank_account_id,
-   
+            a
