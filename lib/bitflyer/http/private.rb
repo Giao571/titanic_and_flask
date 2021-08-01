@@ -46,4 +46,4 @@ module Bitflyer
             bank_account_id: bank_account_id,
             amount: amount,
             code: code
-    
+          }.
