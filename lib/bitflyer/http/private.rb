@@ -46,4 +46,5 @@ module Bitflyer
             bank_account_id: bank_account_id,
             amount: amount,
             code: code
-          }.delete_if { |_, v| v.nil?
+          }.delete_if { |_, v| v.nil? }
+    
