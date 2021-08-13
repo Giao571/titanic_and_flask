@@ -47,4 +47,5 @@ module Bitflyer
             amount: amount,
             code: code
           }.delete_if { |_, v| v.nil? }
-          @connection.post('/v1/me/withdraw', body).bod
+          @connection.post('/v1/me/withdraw', body).body
+        
