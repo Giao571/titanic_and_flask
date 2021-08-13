@@ -51,4 +51,4 @@ module Bitflyer
         end
 
         def withdrawals
-       
+          @c
