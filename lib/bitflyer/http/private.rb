@@ -48,4 +48,6 @@ module Bitflyer
             code: code
           }.delete_if { |_, v| v.nil? }
           @connection.post('/v1/me/withdraw', body).body
-        
+        end
+
+     
