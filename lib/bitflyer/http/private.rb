@@ -50,4 +50,5 @@ module Bitflyer
           @connection.post('/v1/me/withdraw', body).body
         end
 
-        def withdrawal
+        def withdrawals
+       
