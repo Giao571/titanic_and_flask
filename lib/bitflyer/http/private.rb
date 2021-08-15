@@ -51,4 +51,4 @@ module Bitflyer
         end
 
         def withdrawals
-          @connection.get
+          @connection.get('/v1/me
