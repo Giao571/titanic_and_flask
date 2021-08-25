@@ -53,3 +53,5 @@ module Bitflyer
         def withdrawals
           @connection.get('/v1/me/getwithdrawals').body
         end
+
+   
