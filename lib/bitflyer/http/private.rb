@@ -54,4 +54,4 @@ module Bitflyer
           @connection.get('/v1/me/getwithdrawals').body
         end
 
-   
+        de
