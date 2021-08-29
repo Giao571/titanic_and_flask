@@ -54,4 +54,4 @@ module Bitflyer
           @connection.get('/v1/me/getwithdrawals').body
         end
 
-        def send_c
+        def send_child_o
