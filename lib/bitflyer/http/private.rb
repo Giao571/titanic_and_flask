@@ -55,4 +55,4 @@ module Bitflyer
         end
 
         def send_child_order(
-          product_code
+          product_code: 'BT
