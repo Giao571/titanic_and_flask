@@ -57,4 +57,5 @@ module Bitflyer
         def send_child_order(
           product_code: 'BTC_JPY',
           child_order_type: nil,
-          side: nil
+          side: nil,
+    
