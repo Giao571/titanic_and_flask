@@ -58,4 +58,4 @@ module Bitflyer
           product_code: 'BTC_JPY',
           child_order_type: nil,
           side: nil,
-          p
+          price: nil,
