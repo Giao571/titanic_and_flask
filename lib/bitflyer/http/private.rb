@@ -59,4 +59,4 @@ module Bitflyer
           child_order_type: nil,
           side: nil,
           price: nil,
-          size:
+          size: nil,
