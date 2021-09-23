@@ -61,4 +61,4 @@ module Bitflyer
           price: nil,
           size: nil,
           minute_to_expire: nil,
-     
+          tim
