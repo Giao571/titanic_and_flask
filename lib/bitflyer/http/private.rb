@@ -62,4 +62,5 @@ module Bitflyer
           size: nil,
           minute_to_expire: nil,
           time_in_force: 'GTC'
-   
+        )
+     
