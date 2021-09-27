@@ -63,4 +63,5 @@ module Bitflyer
           minute_to_expire: nil,
           time_in_force: 'GTC'
         )
-          body 
+          body = {
+ 
