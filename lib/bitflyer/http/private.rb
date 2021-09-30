@@ -64,4 +64,4 @@ module Bitflyer
           time_in_force: 'GTC'
         )
           body = {
-    
+            p
