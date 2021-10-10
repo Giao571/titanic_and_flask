@@ -65,4 +65,5 @@ module Bitflyer
         )
           body = {
             product_code: product_code,
-            child_order_type: child_order_
+            child_order_type: child_order_type,
+       
