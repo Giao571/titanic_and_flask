@@ -68,3 +68,4 @@ module Bitflyer
             child_order_type: child_order_type,
             side: side,
             price: price,
+       
