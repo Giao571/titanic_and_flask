@@ -69,3 +69,4 @@ module Bitflyer
             side: side,
             price: price,
             size: size,
+       
