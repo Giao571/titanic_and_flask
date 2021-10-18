@@ -69,4 +69,4 @@ module Bitflyer
             side: side,
             price: price,
             size: size,
-            min
+            minute_to_exp
