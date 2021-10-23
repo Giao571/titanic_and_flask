@@ -70,4 +70,4 @@ module Bitflyer
             price: price,
             size: size,
             minute_to_expire: minute_to_expire,
-   
+       
