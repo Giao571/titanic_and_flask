@@ -71,4 +71,4 @@ module Bitflyer
             size: size,
             minute_to_expire: minute_to_expire,
             time_in_force: time_in_force
-          }.delete_if { |
+          }.delete_if { |_, 
