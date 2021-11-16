@@ -73,4 +73,4 @@ module Bitflyer
             time_in_force: time_in_force
           }.delete_if { |_, v| v.nil? }
           @connection.post('/v1/me/sendchildorder', body).body
-  
+        
