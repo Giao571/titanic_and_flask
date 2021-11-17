@@ -75,4 +75,4 @@ module Bitflyer
           @connection.post('/v1/me/sendchildorder', body).body
         end
 
- 
+        d
