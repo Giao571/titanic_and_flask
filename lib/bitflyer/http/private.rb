@@ -75,4 +75,4 @@ module Bitflyer
           @connection.post('/v1/me/sendchildorder', body).body
         end
 
-        def cancel_child_orde
+        def cancel_child_order(
