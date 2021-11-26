@@ -75,4 +75,4 @@ module Bitflyer
           @connection.post('/v1/me/sendchildorder', body).body
         end
 
-        def cancel_child_order(product_code: 'BTC_JPY', chi
+        def cancel_child_order(product_code: 'BTC_JPY', child_ord
