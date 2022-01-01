@@ -80,3 +80,4 @@ module Bitflyer
             product_code: product_code,
             child_order_id: child_order_id,
             child_order_acceptance_id: child_order_acceptance_id
+        
