@@ -82,4 +82,6 @@ module Bitflyer
             child_order_acceptance_id: child_order_acceptance_id
           }.delete_if { |_, v| v.nil? }
           @connection.post('/v1/me/cancelchildorder', body).body
-        
+        end
+
+      
