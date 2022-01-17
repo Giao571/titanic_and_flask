@@ -84,4 +84,4 @@ module Bitflyer
           @connection.post('/v1/me/cancelchildorder', body).body
         end
 
-        d
+        def s
