@@ -86,4 +86,4 @@ module Bitflyer
 
         def send_parent_order(order_method: nil, minute_to_expire: nil, time_in_force: 'GTC', parameters: {})
           body = {
-            order_method: o
+            order_method: order_met
