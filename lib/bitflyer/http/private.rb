@@ -88,4 +88,4 @@ module Bitflyer
           body = {
             order_method: order_method,
             minute_to_expire: minute_to_expire,
-            time
+            time_in_
