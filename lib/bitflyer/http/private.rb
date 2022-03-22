@@ -90,4 +90,5 @@ module Bitflyer
             minute_to_expire: minute_to_expire,
             time_in_force: time_in_force,
             parameters: parameters
-          }.delete_if { |_, v| v.nil? 
+          }.delete_if { |_, v| v.nil? }
+  
