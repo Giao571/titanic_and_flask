@@ -91,4 +91,4 @@ module Bitflyer
             time_in_force: time_in_force,
             parameters: parameters
           }.delete_if { |_, v| v.nil? }
-          @connect
+          @connection.p
