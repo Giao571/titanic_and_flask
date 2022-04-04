@@ -91,4 +91,5 @@ module Bitflyer
             time_in_force: time_in_force,
             parameters: parameters
           }.delete_if { |_, v| v.nil? }
-          @connection.post('/v1/me/sendparentorder', body).bod
+          @connection.post('/v1/me/sendparentorder', body).body
+    
