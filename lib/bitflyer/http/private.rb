@@ -92,4 +92,4 @@ module Bitflyer
             parameters: parameters
           }.delete_if { |_, v| v.nil? }
           @connection.post('/v1/me/sendparentorder', body).body
-    
+        e
