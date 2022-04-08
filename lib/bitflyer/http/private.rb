@@ -94,4 +94,4 @@ module Bitflyer
           @connection.post('/v1/me/sendparentorder', body).body
         end
 
-        def
+        def cance
