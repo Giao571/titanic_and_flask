@@ -94,4 +94,4 @@ module Bitflyer
           @connection.post('/v1/me/sendparentorder', body).body
         end
 
-        def cancel_paren
+        def cancel_parent_orde
