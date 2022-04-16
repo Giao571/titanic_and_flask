@@ -94,4 +94,4 @@ module Bitflyer
           @connection.post('/v1/me/sendparentorder', body).body
         end
 
-        def cancel_parent_order(product_code: 'BTC_
+        def cancel_parent_order(product_code: 'BTC_JPY
