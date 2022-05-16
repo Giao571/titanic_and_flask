@@ -97,4 +97,5 @@ module Bitflyer
         def cancel_parent_order(product_code: 'BTC_JPY', parent_order_id: nil, parent_order_acceptance_id: nil)
           body = {
             product_code: product_code,
-            parent_order_id: parent_orde
+            parent_order_id: parent_order_id,
+ 
