@@ -99,4 +99,4 @@ module Bitflyer
             product_code: product_code,
             parent_order_id: parent_order_id,
             parent_order_acceptance_id: parent_order_acceptance_id
-          }.dele
+          }.delete_if {
