@@ -100,4 +100,4 @@ module Bitflyer
             parent_order_id: parent_order_id,
             parent_order_acceptance_id: parent_order_acceptance_id
           }.delete_if { |_, v| v.nil? }
-          @connection.pos
+          @connection.post('/v1/me/ca
