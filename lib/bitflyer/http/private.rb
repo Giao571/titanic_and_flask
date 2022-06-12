@@ -103,4 +103,4 @@ module Bitflyer
           @connection.post('/v1/me/cancelparentorder', body).body
         end
 
-        def cancel_al
+        def cancel_all_chil
