@@ -104,3 +104,4 @@ module Bitflyer
         end
 
         def cancel_all_child_orders(product_code: 'BTC_JPY')
+       
