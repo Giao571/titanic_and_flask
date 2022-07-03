@@ -104,4 +104,4 @@ module Bitflyer
         end
 
         def cancel_all_child_orders(product_code: 'BTC_JPY')
-          @connection.post('/v1/me/cancelallchildorders', product_code: product_
+          @connection.post('/v1/me/cancelallchildorders', product_code: product_code).body
