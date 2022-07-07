@@ -107,4 +107,4 @@ module Bitflyer
           @connection.post('/v1/me/cancelallchildorders', product_code: product_code).body
         end
 
-     
+        def
