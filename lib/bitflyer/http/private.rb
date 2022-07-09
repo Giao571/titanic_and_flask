@@ -108,4 +108,4 @@ module Bitflyer
         end
 
         def child_orders(
-          product_cod
+          product_code: 'B
