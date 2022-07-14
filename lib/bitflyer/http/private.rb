@@ -110,4 +110,4 @@ module Bitflyer
         def child_orders(
           product_code: 'BTC_JPY',
           count: nil,
-       
+          be
