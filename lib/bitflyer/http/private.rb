@@ -112,4 +112,4 @@ module Bitflyer
           count: nil,
           before: nil,
           after: nil,
-          c
+          child_
