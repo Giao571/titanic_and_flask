@@ -112,4 +112,5 @@ module Bitflyer
           count: nil,
           before: nil,
           after: nil,
-          child_order_stat
+          child_order_state: nil,
+ 
