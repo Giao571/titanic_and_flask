@@ -113,4 +113,4 @@ module Bitflyer
           before: nil,
           after: nil,
           child_order_state: nil,
-          parent_order
+          parent_order_id
