@@ -115,4 +115,5 @@ module Bitflyer
           child_order_state: nil,
           parent_order_id: nil
         )
-          query 
+          query = {
+  
