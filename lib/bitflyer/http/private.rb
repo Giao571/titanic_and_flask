@@ -116,4 +116,5 @@ module Bitflyer
           parent_order_id: nil
         )
           query = {
-            product_code: produc
+            product_code: product_code,
+ 
