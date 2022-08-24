@@ -119,4 +119,5 @@ module Bitflyer
             product_code: product_code,
             count: count,
             before: before,
-            after: 
+            after: after,
+  
