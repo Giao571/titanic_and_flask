@@ -121,4 +121,4 @@ module Bitflyer
             before: before,
             after: after,
             child_order_state: child_order_state,
-            parent_or
+            parent_order_id
