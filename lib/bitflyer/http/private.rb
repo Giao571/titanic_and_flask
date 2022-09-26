@@ -126,4 +126,4 @@ module Bitflyer
           @connection.get('/v1/me/getchildorders', query).body
         end
 
-        def parent_orders(product_code: 'BTC_JPY', count: nil, before: nil, after: nil, parent_order_state
+        def parent_orders(product_code: 'BTC_JPY', count: nil, before: nil, after: nil, parent_order_state: nil)
