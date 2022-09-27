@@ -127,4 +127,5 @@ module Bitflyer
         end
 
         def parent_orders(product_code: 'BTC_JPY', count: nil, before: nil, after: nil, parent_order_state: nil)
-          query
+          query = {
+    
