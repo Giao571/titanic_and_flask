@@ -132,4 +132,4 @@ module Bitflyer
             count: count,
             before: before,
             after: after,
-            parent_order_state: parent_order
+            parent_order_state: parent_order_sta
