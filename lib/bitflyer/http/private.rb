@@ -133,4 +133,4 @@ module Bitflyer
             before: before,
             after: after,
             parent_order_state: parent_order_state
-         
+          }.delete_i
