@@ -134,4 +134,4 @@ module Bitflyer
             after: after,
             parent_order_state: parent_order_state
           }.delete_if { |_, v| v.nil? }
-          @conne
+          @connectio
