@@ -134,4 +134,5 @@ module Bitflyer
             after: after,
             parent_order_state: parent_order_state
           }.delete_if { |_, v| v.nil? }
-          @connection.get('/v1/me/getparentorders', query)
+          @connection.get('/v1/me/getparentorders', query).body
+ 
