@@ -137,4 +137,4 @@ module Bitflyer
           @connection.get('/v1/me/getparentorders', query).body
         end
 
-        def parent_order(parent_order_id: nil, parent_order_accep
+        def parent_order(parent_order_id: nil, parent_order_acceptance_i
