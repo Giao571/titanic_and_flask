@@ -141,4 +141,4 @@ module Bitflyer
           query = {
             parent_order_id: parent_order_id,
             parent_order_acceptance_id: parent_order_acceptance_id
-     
+         
