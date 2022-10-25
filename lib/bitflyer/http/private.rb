@@ -140,4 +140,5 @@ module Bitflyer
         def parent_order(parent_order_id: nil, parent_order_acceptance_id: nil)
           query = {
             parent_order_id: parent_order_id,
-            parent_order_acceptance_id: parent_order_acceptance_
+            parent_order_acceptance_id: parent_order_acceptance_id
+     
