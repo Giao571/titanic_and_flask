@@ -141,4 +141,5 @@ module Bitflyer
           query = {
             parent_order_id: parent_order_id,
             parent_order_acceptance_id: parent_order_acceptance_id
-          }.delete_if { |_, v| v.n
+          }.delete_if { |_, v| v.nil? }
+ 
