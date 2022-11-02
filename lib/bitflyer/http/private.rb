@@ -145,4 +145,4 @@ module Bitflyer
           @connection.get('/v1/me/getparentorder', query).body
         end
 
-    
+        d
