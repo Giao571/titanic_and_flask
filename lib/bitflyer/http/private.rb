@@ -146,4 +146,4 @@ module Bitflyer
         end
 
         def executions(
-          pr
+          product_code: 
