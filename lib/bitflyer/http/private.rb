@@ -146,4 +146,5 @@ module Bitflyer
         end
 
         def executions(
-          product_code: 'BTC
+          product_code: 'BTC_JPY',
+ 
