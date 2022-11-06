@@ -148,4 +148,4 @@ module Bitflyer
         def executions(
           product_code: 'BTC_JPY',
           count: nil,
-          befor
+          before: ni
