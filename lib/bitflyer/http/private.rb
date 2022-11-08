@@ -149,4 +149,5 @@ module Bitflyer
           product_code: 'BTC_JPY',
           count: nil,
           before: nil,
-          after: ni
+          after: nil,
+      
