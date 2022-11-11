@@ -151,4 +151,4 @@ module Bitflyer
           before: nil,
           after: nil,
           child_order_id: nil,
-          child_o
+          child_order_a
