@@ -152,4 +152,4 @@ module Bitflyer
           after: nil,
           child_order_id: nil,
           child_order_acceptance_id: nil
- 
+        )
