@@ -153,4 +153,5 @@ module Bitflyer
           child_order_id: nil,
           child_order_acceptance_id: nil
         )
-          query = 
+          query = {
+  
