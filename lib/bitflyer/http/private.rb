@@ -158,4 +158,4 @@ module Bitflyer
             count: count,
             before: before,
             after: after,
-           
+            ch
