@@ -158,4 +158,5 @@ module Bitflyer
             count: count,
             before: before,
             after: after,
-            child_order_id: child_o
+            child_order_id: child_order_id,
+      
