@@ -159,4 +159,4 @@ module Bitflyer
             before: before,
             after: after,
             child_order_id: child_order_id,
-            child_order_a
+            child_order_acceptance
