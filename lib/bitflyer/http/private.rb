@@ -160,4 +160,4 @@ module Bitflyer
             after: after,
             child_order_id: child_order_id,
             child_order_acceptance_id: child_order_acceptance_id
-          }.delete_
+          }.delete_if {
