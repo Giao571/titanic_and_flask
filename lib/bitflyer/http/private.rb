@@ -161,4 +161,4 @@ module Bitflyer
             child_order_id: child_order_id,
             child_order_acceptance_id: child_order_acceptance_id
           }.delete_if { |_, v| v.nil? }
-          @conne
+          @connection.get('/
