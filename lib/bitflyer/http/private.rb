@@ -164,4 +164,4 @@ module Bitflyer
           @connection.get('/v1/me/getexecutions', query).body
         end
 
-        def balan
+        def balance_hi
