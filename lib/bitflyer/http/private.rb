@@ -164,4 +164,4 @@ module Bitflyer
           @connection.get('/v1/me/getexecutions', query).body
         end
 
-        def balance_history(currency_code: nil, count: nil
+        def balance_history(currency_code: nil, count: nil, bef
