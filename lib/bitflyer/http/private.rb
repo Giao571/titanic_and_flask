@@ -166,4 +166,4 @@ module Bitflyer
 
         def balance_history(currency_code: nil, count: nil, before: nil, after: nil)
           query = {
-            currency_code: curr
+            currency_code: currenc
