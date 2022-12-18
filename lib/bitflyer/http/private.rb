@@ -168,4 +168,4 @@ module Bitflyer
           query = {
             currency_code: currency_code,
             count: count,
-            before
+            before: bef
