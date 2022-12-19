@@ -169,4 +169,5 @@ module Bitflyer
             currency_code: currency_code,
             count: count,
             before: before,
-            after: aft
+            after: after
+   
