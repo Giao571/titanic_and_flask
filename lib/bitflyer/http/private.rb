@@ -170,4 +170,4 @@ module Bitflyer
             count: count,
             before: before,
             after: after
-          }.delete_if { |_, v
+          }.delete_if { |_, v| v.ni
