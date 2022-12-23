@@ -171,4 +171,4 @@ module Bitflyer
             before: before,
             after: after
           }.delete_if { |_, v| v.nil? }
-          @connection.get(
+          @connection.get('/v1/me
