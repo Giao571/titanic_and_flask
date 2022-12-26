@@ -171,4 +171,5 @@ module Bitflyer
             before: before,
             after: after
           }.delete_if { |_, v| v.nil? }
-          @connection.get('/v1/me/getbalancehistory', query)
+          @connection.get('/v1/me/getbalancehistory', query).body
+      
