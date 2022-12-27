@@ -173,3 +173,5 @@ module Bitflyer
           }.delete_if { |_, v| v.nil? }
           @connection.get('/v1/me/getbalancehistory', query).body
         end
+
+    
