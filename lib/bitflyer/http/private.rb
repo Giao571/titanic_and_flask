@@ -174,4 +174,4 @@ module Bitflyer
           @connection.get('/v1/me/getbalancehistory', query).body
         end
 
-        def po
+        def positio
