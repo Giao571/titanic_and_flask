@@ -174,4 +174,5 @@ module Bitflyer
           @connection.get('/v1/me/getbalancehistory', query).body
         end
 
-        def positions(product_code: 'FX_B
+        def positions(product_code: 'FX_BTC_JPY')
+ 
