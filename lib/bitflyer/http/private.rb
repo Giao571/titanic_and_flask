@@ -175,4 +175,4 @@ module Bitflyer
         end
 
         def positions(product_code: 'FX_BTC_JPY')
-         
+          @conne
