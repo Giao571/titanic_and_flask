@@ -177,3 +177,5 @@ module Bitflyer
         def positions(product_code: 'FX_BTC_JPY')
           @connection.get('/v1/me/getpositions', product_code: product_code).body
         end
+
+     
