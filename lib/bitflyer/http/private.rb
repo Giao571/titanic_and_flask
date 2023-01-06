@@ -178,4 +178,4 @@ module Bitflyer
           @connection.get('/v1/me/getpositions', product_code: product_code).body
         end
 
-     
+        
