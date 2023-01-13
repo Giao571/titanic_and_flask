@@ -179,4 +179,4 @@ module Bitflyer
         end
 
         def trading_commission(product_code: 'BTC_JPY')
-          @connectio
+          @connection.get('v1/me/g
