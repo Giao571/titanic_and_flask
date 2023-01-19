@@ -182,4 +182,5 @@ module Bitflyer
           @connection.get('v1/me/gettradingcommission', product_code: product_code).body
         end
       end
-   
+    end
+  en
