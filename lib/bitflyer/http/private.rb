@@ -183,4 +183,5 @@ module Bitflyer
         end
       end
     end
-  en
+  end
+end
