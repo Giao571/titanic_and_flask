@@ -20,3 +20,15 @@ module Bitflyer
         def board(product_code: 'BTC_JPY')
           @connection.get('/v1/board', product_code: product_code).body
         end
+
+        def ticker(product_code: 'BTC_JPY')
+          @connection.get('/v1/ticker', product_code: product_code).body
+        end
+
+        def executions(product_code: 'BTC_JPY', count: nil, before: nil, after: nil)
+          query = {
+            product_code: product_code,
+            count: count,
+            before: before,
+            after: after
+          }.delete_if { |_, v| v.nil? }
