@@ -14,3 +14,9 @@ module Bitflyer
         end
 
         def markets
+          @connection.get('/v1/markets').body
+        end
+
+        def board(product_code: 'BTC_JPY')
+          @connection.get('/v1/board', product_code: product_code).body
+        end
