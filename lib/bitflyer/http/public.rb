@@ -32,3 +32,11 @@ module Bitflyer
             before: before,
             after: after
           }.delete_if { |_, v| v.nil? }
+          @connection.get('/v1/executions', query).body
+        end
+
+        def chats(from_date: (Time.now - (5 * 24 * 60 * 60)))
+          @connection.get('/v1/getchats', from_date: from_date).body
+        end
+      end
+    end
