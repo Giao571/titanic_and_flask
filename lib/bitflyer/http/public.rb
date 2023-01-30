@@ -40,3 +40,5 @@ module Bitflyer
         end
       end
     end
+  end
+end
