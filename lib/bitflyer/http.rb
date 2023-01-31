@@ -17,3 +17,7 @@ module Bitflyer
 
       def initialize(key, secret)
         @connection = Faraday::Connection.new(url: 'https://api.bitflyer.jp') do |f|
+          f.request :json
+          f.response :json
+          f.use Authentication, key, secret
+          f.adapter Faraday.default_adapter
