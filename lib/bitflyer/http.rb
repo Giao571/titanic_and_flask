@@ -36,3 +36,9 @@ module Bitflyer
         return @app.call(env) if @key.nil? || @secret.nil?
 
         timestamp = Time.now.to_i.to_s
+        method = env[:method].to_s.upcase
+        path = env[:url].path + (env[:url].query ? "?#{env[:url].query}" : '')
+        body = env[:body] || ''
+        signature = OpenSSL::HMAC.hexdigest(OpenSSL::Digest.new('sha256'), @secret, timestamp + method + path + body)
+        env[:request_headers]['ACCESS-KEY'] = @key if @key
+        env[:request_headers]['ACCESS-TIMESTAMP'] = timestamp
