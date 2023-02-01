@@ -27,3 +27,12 @@ module Bitflyer
 
     class Authentication < Faraday::Middleware
       def initialize(app, key, secret)
+        super(app)
+        @key = key
+        @secret = secret
+      end
+
+      def call(env)
+        return @app.call(env) if @key.nil? || @secret.nil?
+
+        timestamp = Time.now.to_i.to_s
