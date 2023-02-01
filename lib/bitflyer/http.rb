@@ -21,3 +21,9 @@ module Bitflyer
           f.response :json
           f.use Authentication, key, secret
           f.adapter Faraday.default_adapter
+        end
+      end
+    end
+
+    class Authentication < Faraday::Middleware
+      def initialize(app, key, secret)
