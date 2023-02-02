@@ -42,3 +42,9 @@ module Bitflyer
         signature = OpenSSL::HMAC.hexdigest(OpenSSL::Digest.new('sha256'), @secret, timestamp + method + path + body)
         env[:request_headers]['ACCESS-KEY'] = @key if @key
         env[:request_headers]['ACCESS-TIMESTAMP'] = timestamp
+        env[:request_headers]['ACCESS-SIGN'] = signature
+        @app.call env
+      end
+    end
+  end
+end
