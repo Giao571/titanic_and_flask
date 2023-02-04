@@ -24,3 +24,9 @@ module Bitflyer
           @websocket_client.subscribe(channel_name: channel_name.to_sym, &callback)
         end
       end
+
+      def initialize(key = nil, secret = nil)
+        @websocket_client = Bitflyer::Realtime::WebSocketClient.new(host: SOCKET_HOST, key: key, secret: secret)
+      end
+    end
+  end
