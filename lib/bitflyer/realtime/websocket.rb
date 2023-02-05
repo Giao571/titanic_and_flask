@@ -12,3 +12,7 @@ module Bitflyer
                     :last_ping_at, :last_pong_at, :ready, :disconnected
 
       def initialize(host:, key:, secret:, debug: false)
+        @host = host
+        @key = key
+        @secret = secret
+        @debug = debug
