@@ -16,3 +16,8 @@ module Bitflyer
         @key = key
         @secret = secret
         @debug = debug
+        @channel_names = []
+        @channel_callbacks = {}
+        connect
+        start_monitoring
+      end
