@@ -21,3 +21,9 @@ module Bitflyer
         connect
         start_monitoring
       end
+
+      def subscribe(channel_name:, &block)
+        debug_log "Subscribe #{channel_name}"
+        @channel_names = (@channel_names + [channel_name]).uniq
+        @channel_callbacks[channel_name] = block
+        @websocket_client.send "42#{['subscribe', channel_name].to_json}"
