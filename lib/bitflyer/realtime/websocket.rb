@@ -27,3 +27,8 @@ module Bitflyer
         @channel_names = (@channel_names + [channel_name]).uniq
         @channel_callbacks[channel_name] = block
         @websocket_client.send "42#{['subscribe', channel_name].to_json}"
+      end
+
+      def connect
+        @websocket_client = WebSocket::Client::Simple.connect "#{@host}/socket.io/?transport=websocket"
+        this = self
