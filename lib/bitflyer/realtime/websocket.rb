@@ -32,3 +32,10 @@ module Bitflyer
       def connect
         @websocket_client = WebSocket::Client::Simple.connect "#{@host}/socket.io/?transport=websocket"
         this = self
+        @websocket_client.on(:message) { |payload| this.handle_message(payload: payload) }
+        @websocket_client.on(:error) { |error| this.handle_error(error: error) }
+        @websocket_client.on(:close) { |error| this.handle_close(error: error) }
+      rescue SocketError => e
+        puts e
+        puts e.backtrace.join("\n")
+      end
