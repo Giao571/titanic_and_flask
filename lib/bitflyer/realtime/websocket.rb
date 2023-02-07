@@ -39,3 +39,8 @@ module Bitflyer
         puts e
         puts e.backtrace.join("\n")
       end
+
+      def start_monitoring
+        Thread.new do
+          loop do
+            sleep 1
