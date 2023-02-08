@@ -60,3 +60,8 @@ module Bitflyer
 
         debug_log 'Sent ping'
         @websocket_client.send '2'
+        @last_ping_at = Time.now.to_i
+      end
+
+      def wait_pong
+        return unless @last_pong_at && @ping_timeout
