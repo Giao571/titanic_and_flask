@@ -44,3 +44,9 @@ module Bitflyer
         Thread.new do
           loop do
             sleep 1
+            if @websocket_client&.open?
+              send_ping
+              wait_pong
+            else
+              reconnect
+            end
