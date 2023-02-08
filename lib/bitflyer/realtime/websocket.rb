@@ -57,3 +57,6 @@ module Bitflyer
       def send_ping
         return unless @last_ping_at && @ping_interval
         return unless Time.now.to_i - @last_ping_at > @ping_interval / 1000
+
+        debug_log 'Sent ping'
+        @websocket_client.send '2'
