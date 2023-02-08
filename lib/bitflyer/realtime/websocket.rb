@@ -50,3 +50,10 @@ module Bitflyer
             else
               reconnect
             end
+          end
+        end
+      end
+
+      def send_ping
+        return unless @last_ping_at && @ping_interval
+        return unless Time.now.to_i - @last_ping_at > @ping_interval / 1000
