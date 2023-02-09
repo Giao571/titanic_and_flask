@@ -70,3 +70,12 @@ module Bitflyer
         debug_log 'Timed out waiting pong'
         @websocket_client.close
       end
+
+      def reconnect
+        return if @websocket_client&.open?
+
+        debug_log 'Reconnecting...'
+
+        @websocket_client.close if @websocket_client.open?
+        connect
+      end
