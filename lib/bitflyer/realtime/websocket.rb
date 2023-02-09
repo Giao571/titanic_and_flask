@@ -79,3 +79,10 @@ module Bitflyer
         @websocket_client.close if @websocket_client.open?
         connect
       end
+
+      def handle_error(error:)
+        debug_log error
+        return unless error.is_a? Errno::ECONNRESET
+
+        @disconnected&.call(error)
+        reconnect
