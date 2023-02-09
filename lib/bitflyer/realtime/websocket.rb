@@ -86,3 +86,10 @@ module Bitflyer
 
         @disconnected&.call(error)
         reconnect
+      end
+
+      def handle_message(payload:) # rubocop:disable Metrics/CyclomaticComplexity
+        debug_log payload.data
+        return unless payload.data =~ /^\d+/
+
+        code, body = payload.data.scan(/^(\d+)(.*)$/)[0]
