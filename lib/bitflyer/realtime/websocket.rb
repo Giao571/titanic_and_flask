@@ -93,3 +93,10 @@ module Bitflyer
         return unless payload.data =~ /^\d+/
 
         code, body = payload.data.scan(/^(\d+)(.*)$/)[0]
+
+        case code.to_i
+        when 0 then setup_by_response(json: body)
+        when 3 then receive_pong
+        when 41 then disconnect
+        when 42 then emit_message(json: body)
+        when 430 then authenticated(json: body)
