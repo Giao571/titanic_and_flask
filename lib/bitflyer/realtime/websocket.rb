@@ -100,3 +100,7 @@ module Bitflyer
         when 41 then disconnect
         when 42 then emit_message(json: body)
         when 430 then authenticated(json: body)
+        end
+      rescue StandardError => e
+        puts e
+        puts e.backtrace.join("\n")
