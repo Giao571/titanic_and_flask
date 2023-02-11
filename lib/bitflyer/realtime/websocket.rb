@@ -115,3 +115,9 @@ module Bitflyer
         body = JSON.parse json
         @ping_interval = body['pingInterval'].to_i || 25_000
         @ping_timeout  = body['pingTimeout'].to_i || 60_000
+        @last_ping_at = Time.now.to_i
+        @last_pong_at = Time.now.to_i
+        if @key && @secret
+          authenticate
+        else
+          subscribe_channels
