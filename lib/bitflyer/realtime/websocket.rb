@@ -104,3 +104,8 @@ module Bitflyer
       rescue StandardError => e
         puts e
         puts e.backtrace.join("\n")
+      end
+
+      def handle_close(error:)
+        debug_log error
+        @disconnected&.call(error)
