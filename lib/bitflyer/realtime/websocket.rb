@@ -109,3 +109,9 @@ module Bitflyer
       def handle_close(error:)
         debug_log error
         @disconnected&.call(error)
+      end
+
+      def setup_by_response(json:)
+        body = JSON.parse json
+        @ping_interval = body['pingInterval'].to_i || 25_000
+        @ping_timeout  = body['pingTimeout'].to_i || 60_000
