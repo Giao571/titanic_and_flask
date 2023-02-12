@@ -133,3 +133,10 @@ module Bitflyer
         auth_params = {
           api_key: @key,
           timestamp: timestamp,
+          nonce: nonce,
+          signature: signature
+        }
+        @websocket_client.send "420#{['auth', auth_params].to_json}"
+      end
+
+      def authenticated(json:)
