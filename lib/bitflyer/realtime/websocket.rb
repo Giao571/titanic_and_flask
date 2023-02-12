@@ -121,3 +121,10 @@ module Bitflyer
           authenticate
         else
           subscribe_channels
+          @ready&.call
+        end
+      end
+
+      def authenticate
+        debug_log 'Authenticate'
+        timestamp = Time.now.to_i
