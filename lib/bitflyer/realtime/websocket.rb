@@ -128,3 +128,8 @@ module Bitflyer
       def authenticate
         debug_log 'Authenticate'
         timestamp = Time.now.to_i
+        nonce = Random.new.bytes(16).unpack1('H*')
+        signature = OpenSSL::HMAC.hexdigest(OpenSSL::Digest.new('sha256'), @secret, timestamp.to_s + nonce)
+        auth_params = {
+          api_key: @key,
+          timestamp: timestamp,
