@@ -148,3 +148,11 @@ module Bitflyer
       end
 
       def subscribe_channels
+        @channel_callbacks.each do |channel_name, _|
+          debug_log "42#{{ subscribe: channel_name }.to_json}"
+          @websocket_client.send "42#{['subscribe', channel_name].to_json}"
+        end
+      end
+
+      def receive_pong
+        debug_log 'Received pong'
