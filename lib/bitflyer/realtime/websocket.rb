@@ -140,3 +140,6 @@ module Bitflyer
       end
 
       def authenticated(json:)
+        raise "Authentication failed: #{json}" if json != '[null]'
+
+        debug_log 'Authenticated'
