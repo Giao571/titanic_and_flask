@@ -143,3 +143,8 @@ module Bitflyer
         raise "Authentication failed: #{json}" if json != '[null]'
 
         debug_log 'Authenticated'
+        subscribe_channels
+        @ready&.call
+      end
+
+      def subscribe_channels
