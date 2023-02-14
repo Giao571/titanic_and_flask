@@ -167,3 +167,6 @@ module Bitflyer
       def emit_message(json:)
         channel_name, *messages = JSON.parse json
         return unless channel_name
+
+        messages.each { |message| @channel_callbacks[channel_name.to_sym]&.call(message) }
+      end
