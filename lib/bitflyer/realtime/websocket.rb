@@ -156,3 +156,14 @@ module Bitflyer
 
       def receive_pong
         debug_log 'Received pong'
+        @last_pong_at = Time.now.to_i
+      end
+
+      def disconnect
+        debug_log 'Disconnecting from server...'
+        @websocket_client.close
+      end
+
+      def emit_message(json:)
+        channel_name, *messages = JSON.parse json
+        return unless channel_name
