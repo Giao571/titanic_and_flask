@@ -170,3 +170,5 @@ module Bitflyer
 
         messages.each { |message| @channel_callbacks[channel_name.to_sym]&.call(message) }
       end
+
+      def debug_log(message)
