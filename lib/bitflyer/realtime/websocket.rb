@@ -172,3 +172,10 @@ module Bitflyer
       end
 
       def debug_log(message)
+        return unless @debug
+
+        p message
+      end
+    end
+  end
+end
