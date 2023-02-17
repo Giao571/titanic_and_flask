@@ -11,3 +11,9 @@ module Bitflyer
   end
 
   def http_public_client
+    Bitflyer::HTTP::Public::Client.new
+  end
+
+  def http_private_client(key, secret)
+    Bitflyer::HTTP::Private::Client.new(key, secret)
+  end
