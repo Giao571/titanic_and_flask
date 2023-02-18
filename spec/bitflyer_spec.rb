@@ -1,3 +1,3 @@
 require 'spec_helper'
 
-describ
+describe 
