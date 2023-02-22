@@ -1,4 +1,4 @@
 require 'spec_helper'
 
 describe Bitflyer do
-  it 'has a version num
+  it 'has a version number
